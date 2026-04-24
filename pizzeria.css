@@ -217,3 +217,57 @@ footer {
         font-size: 2rem;
     }
 }
+/* 🔹 BOTÓN WHATSAPP (restaurado) */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 1000;
+    text-decoration: none;
+}
+
+.whatsapp-float svg {
+    width: 30px;
+    height: 30px;
+}
+
+/* 🔹 REDES SOCIALES (footer) */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+/* 🔹 TEXTO HERO (evita que el botón lo tape) */
+.hero p {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* 🔹 BOTÓN HERO */
+.cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+}
