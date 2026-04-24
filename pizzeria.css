@@ -217,7 +217,7 @@ footer {
         font-size: 2rem;
     }
 }
- /* 🔹 FIX DEFINITIVO WHATSAPP */
+/* 🔹 FIX CENTRADO REAL WHATSAPP */
 .whatsapp-float {
     position: fixed;
     bottom: 20px;
@@ -235,11 +235,11 @@ footer {
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
-/* ICONO PERFECTAMENTE CENTRADO */
+/* 👇 AJUSTE FINO DEL ICONO */
 .whatsapp-float svg {
     width: 28px;
     height: 28px;
-    display: block;
+    transform: translateX(-2px); /* 👈 CORRECCIÓN CLAVE */
 }
 
 /* 🔹 REDES SOCIALES (footer) */
