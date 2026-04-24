@@ -3378,3 +3378,22 @@ a:focus-visible {
         height: 300px;
     }
 }
+
+/* Media Query específica para móvil - PRIORIDAD MÁXIMA */
+@media (max-width: 768px) {
+    .hero-left h1,
+    .hero-content h1,
+    #business-name {
+        font-size: 2rem !important;
+        line-height: 1.2 !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .hero-content {
+        padding: 0 20px !important;
+    }
+    
+    .hero-left {
+        text-align: center !important;
+    }
+}
