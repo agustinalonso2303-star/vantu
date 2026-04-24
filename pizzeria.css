@@ -271,3 +271,14 @@ footer {
     display: inline-block;
     margin-top: 1rem;
 }
+/* 🔹 FIX ICONOS REDES (tamaño correcto) */
+.social-link svg {
+    width: 22px;
+    height: 22px;
+}
+
+/* 🔹 EVITAR QUE SVG SE DESCONTROLE GLOBALMENTE */
+svg {
+    max-width: 100%;
+    height: auto;
+}
