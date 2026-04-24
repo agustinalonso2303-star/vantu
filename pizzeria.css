@@ -217,28 +217,29 @@ footer {
         font-size: 2rem;
     }
 }
- /* 🔹 BOTÓN WHATSAPP (FIX DEFINITIVO) */
+ /* 🔹 FIX DEFINITIVO WHATSAPP */
 .whatsapp-float {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 60px;
     background-color: #25D366;
-    color: white;
     border-radius: 50%;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+
     z-index: 1000;
-    text-decoration: none;
-    padding: 14px; /* 👈 evita que se corte */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
+/* ICONO PERFECTAMENTE CENTRADO */
 .whatsapp-float svg {
     width: 28px;
     height: 28px;
+    display: block;
 }
 
 /* 🔹 REDES SOCIALES (footer) */
@@ -293,10 +294,7 @@ svg {
     box-shadow: 0 6px 18px rgba(255, 215, 0, 0.6);
 }
 
-/* 🔹 FIX WHATSAPP ICON */
-.whatsapp-float {
-    padding: 12px;
-}
+
 
 .whatsapp-float svg {
     width: 26px;
