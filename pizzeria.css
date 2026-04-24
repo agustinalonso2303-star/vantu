@@ -217,13 +217,13 @@ footer {
         font-size: 2rem;
     }
 }
-/* 🔹 FIX CENTRADO REAL WHATSAPP */
+/* 🔹 WHATSAPP FIX COMPLETO */
 .whatsapp-float {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     background-color: #25D366;
     border-radius: 50%;
 
@@ -233,15 +233,17 @@ footer {
 
     z-index: 1000;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+
+    overflow: hidden; /* 👈 evita cortes raros */
 }
 
-/* 👇 AJUSTE FINO DEL ICONO */
+/* 👇 ICONO PERFECTO */
 .whatsapp-float svg {
-    width: 28px;
-    height: 28px;
-    transform: translateX(-2px); /* 👈 CORRECCIÓN CLAVE */
+    width: 30px;
+    height: 30px;
+    fill: white !important;
+    stroke: white !important;
 }
-
 /* 🔹 REDES SOCIALES (footer) */
 .social-links {
     display: flex;
@@ -297,6 +299,6 @@ svg {
 
 
 .whatsapp-float svg {
-    width: 26px;
-    height: 26px;
+    max-width: 100%;
+    height: auto;
 }
