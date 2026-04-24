@@ -893,6 +893,23 @@ footer {
     height: 18px;
 }
 
+/* Media Query específica para móvil - PRIORIDAD MÁXIMA */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem !important;
+        line-height: 1.2 !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .hero {
+        padding: 0 20px !important;
+    }
+    
+    .hero-content {
+        padding: 0 20px !important;
+    }
+}
+
 @media (max-width: 768px) {
     .nav-links {
         flex-direction: column;
