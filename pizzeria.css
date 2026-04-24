@@ -236,8 +236,8 @@ footer {
 }
 
 .whatsapp-float svg {
-    width: 30px;
-    height: 30px;
+    width: 26px;
+    height: 26px;
 }
 
 /* 🔹 REDES SOCIALES (footer) */
@@ -281,4 +281,23 @@ footer {
 svg {
     max-width: 100%;
     height: auto;
+}
+/* 🔹 DEMO PREMIUM - ANIMACIÓN */
+.demo-premium-btn {
+    transition: all 0.3s ease;
+}
+
+.demo-premium-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.5);
+}
+
+/* 🔹 FIX WHATSAPP ICON */
+.whatsapp-float {
+    padding: 12px;
+}
+
+.whatsapp-float svg {
+    width: 26px;
+    height: 26px;
 }
