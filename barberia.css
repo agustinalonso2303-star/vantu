@@ -867,3 +867,25 @@ footer {
         font-size: 2rem;
     }
 }
+
+/* Media Query específica para móvil - PRIORIDAD MÁXIMA */
+@media (max-width: 768px) {
+    h1,
+    .main-title {
+        font-size: 2rem !important;
+        line-height: 1.2 !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    header {
+        padding: 0 20px !important;
+    }
+    
+    .hero {
+        padding: 0 20px !important;
+    }
+    
+    section {
+        padding: 2rem 20px !important;
+    }
+}
