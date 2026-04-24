@@ -3045,25 +3045,47 @@ font-size: 1.1rem;
         min-height: 600px;
     }
     
-    .hero-content h1 {
-        font-size: 2.5rem;
-        line-height: 1.1;
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0 1rem;
     }
     
-    .hero-content p {
-        font-size: 1.1rem;
-        line-height: 1.4;
+    .hero-left {
+        text-align: center;
+        order: 2;
+    }
+    
+    .hero-right {
+        order: 1;
+    }
+    
+    .hero-image img {
+        max-width: 300px;
     }
     
     .hero-buttons {
         flex-direction: column;
-        gap: var(--spacing-sm);
+        gap: 1rem;
+        align-items: center;
     }
     
-    .cta-button {
+    .hero-btn {
         width: 100%;
-        padding: 14px 28px;
+        max-width: 250px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+        line-height: 1.1;
+        margin-bottom: 1rem;
+    }
+    
+    .hero-content p {
         font-size: 1rem;
+        line-height: 1.4;
+        margin-bottom: 1.5rem;
     }
     
     .who-is-for-section {
